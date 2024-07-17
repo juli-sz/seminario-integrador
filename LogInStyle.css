@@ -1,0 +1,26 @@
+/* Set background color of the body */
+body {
+    background: linear-gradient(180deg, #01161E, #124559, #81A4B1);
+  }
+  
+  /* Set background color and text color of the login button */
+  .btn-primary {
+    background-color: #124559;
+    border-color: #124559;
+  }
+  .btn-primary:hover {
+    background-color: #124559;
+    border-color: #124559;
+  }
+  
+  /* Set text color of the card title */
+  .card-title {
+    color: #333;
+  }
+
+  .loginLogo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
