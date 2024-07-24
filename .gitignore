@@ -1,0 +1,7 @@
+# Ignora archivos del entorno de desarrollo
+entorno/*
+!entorno/entorno.md
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
