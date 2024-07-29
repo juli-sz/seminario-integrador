@@ -4,42 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TUP - Inicio</title>
-    <link rel="stylesheet" href="Inicio.css">
+    <link rel="stylesheet" href="InicioAlumno.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <div class="menu">
             <h1>Menú</h1>
-                <div class="menu-buttons">
-                    <button class="menu-button" id="home-button"><i class="fas fa-home"></i> Inicio</button>
-                    <button class="menu-button" id="messages-button"><i class="fas fa-envelope"></i> Mensajes</button>
-                    <button class="menu-button" id="reports-button" onclick="location.href='SeccionReportes.html'"><i class="fas fa-chart-line"></i> Reportes</button>
-                    <button class="menu-button" id="settings-button"><i class="fas fa-cogs"></i> Configuración</button>
-                </div>
+            <div class="menu-buttons">
+                <button class="menu-button" id="home-button"><i class="fas fa-home"></i> Inicio</button>
+                <button class="menu-button" id="messages-button"><i class="fas fa-envelope"></i> Mensajes</button>
+                <button class="menu-button" id="settings-button"><i class="fas fa-file"></i> Trámites</button>
+            </div>
         </div>
         <div class="content">
             <h1>Bienvenido</h1>
+            <h2 class="subtitle">Estado de cuenta al: 18/06/2024</h2>
             <div class="search-bar">
                 <input type="text" id="search-input" placeholder="Buscar...">
                 <button type="button"><i class="fas fa-search"></i></button>
             </div>
             <div class="stats">
                 <div class="stat"> 
-                    <p>$9999,00</p>
-                    <span>Total recaudado del mes</span>
+                    <p>$24.008</p>
+                    <span>Saldo Vencido</span>
                 </div>
                 <div class="stat">
-                    <p>$999999,00</p>
-                    <span>Total recaudado en el mes</span>
+                    <p>15/07/2024</p>
+                    <span>Próximo vencimiento</span>
                 </div>
                 <div class="stat">
-                    <p>10/280</p>
-                    <span>Alumnos pendientes de pago de cuota en el mes actual</span>
-                </div>
-                <div class="stat">
-                    <p>25/280</p>
-                    <span>Alumnos inhabilitados</span>
+                    <p>Estado: Habilitado</p>
                 </div>
             </div>
             <table id="data-table">
