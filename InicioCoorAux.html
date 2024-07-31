@@ -1,10 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./Inicio.css">
-    <head>
-    
-        
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUP - Inicio</title>
+    <link rel="stylesheet" href="Inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h1>Menú</h1>
+                <div class="menu-buttons">
+                    <button class="menu-button" id="home-button"><i class="fas fa-home"></i> Inicio</button>
+                    <button class="menu-button" id="messages-button"><i class="fas fa-envelope"></i> Mensajes</button>
+                    <button class="menu-button" id="reports-button" onclick="location.href='SeccionReportes.html'"><i class="fas fa-chart-line"></i> Reportes</button>
+                    <button class="menu-button" id="settings-button"><i class="fas fa-cogs"></i> Configuración</button>
+                </div>
+        </div>
+        <div class="content">
+            <h1>Bienvenido</h1>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar...">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="stats">
+                <div class="stat"> 
+                    <p>$9999,00</p>
+                    <span>Total recaudado del mes</span>
+                </div>
+                <div class="stat">
+                    <p>$999999,00</p>
+                    <span>Total recaudado en el mes</span>
+                </div>
+                <div class="stat">
+                    <p>10/280</p>
+                    <span>Alumnos pendientes de pago de cuota en el mes actual</span>
+                </div>
+                <div class="stat">
+                    <p>25/280</p>
+                    <span>Alumnos inhabilitados</span>
+                </div>
+            </div>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Legajo</th>
+                        <th>Apellido</th>
+                        <th>Nombre</th>
+                        <th>DNI</th>
+                        <th>Correo</th>
+                        <th>Tipo Cuota</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>25479</td>
+                        <td>Andino</td>
+                        <td>Valentina</td>
+                        <td>43094801</td>
+                        <td>andino_val@gmail.com</td>
+                        <td>Reducida</td>
+                        <td>Habiltado</td>
+                    </tr>
+                    <tr>
+                        <td>24051</td>
+                        <td>Contreras</td>
+                        <td>Daniel</td>
+                        <td>41246123</td>
+                        <td>danielcontrerass@gmail.com</td>
+                        <td>Reducida</td>
+                        <td>Habilitado</td>
+                    </tr>
+                    <tr>
+                        <td>23876</td>
+                        <td>Ludemann</td>
+                        <td>Alberto</td>
+                        <td>43641702</td>
+                        <td>fludemann@gmail.com</td>
+                        <td>Completa</td>
+                        <td>Habilitado</td>
+                    </tr>
+                    <tr>
+                        <td>25651</td>
+                        <td>Rojas</td>
+                        <td>Leandro</td>
+                        <td>42987543</td>
+                        <td>leanrojas@gmail.com</td>
+                        <td>Completa</td>
+                        <td>Habilitado</td>
+                    </tr>
+                    <tr>
+                        <td>24890</td>
+                        <td>Zamora</td>
+                        <td>Florencia</td>
+                        <td>4330901</td>
+                        <td>florzam@gmail.com</td>
+                        <td>Completa</td>
+                        <td>Habilitado</td>
+                    </tr>
+                    <tr>
+                        <td>24993</td>
+                        <td>Gonzalez</td>
+                        <td>Zahira</td>
+                        <td>4299401</td>
+                        <td>gonzalezahi@gmail.com</td>
+                        <td>Reducida</td>
+                        <td>Habilitado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="searchInicio.js"></script>
+</body>
+</html>

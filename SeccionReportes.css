@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh; 
+}
+
+.menu {
+    width: 170px;
+    background-color: #E8EDE8;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    padding: 35px;
+    padding-left: 20px;
+    position: relative;
+    height: auto;
+}
+
+.menu::before {
+    content: '';
+    position: absolute;
+    top: 220px; /* Ajusta esto para que el triángulo esté alineado verticalmente con el botón "Inicio" */
+    right: 0; /* Posiciona el triángulo fuera del contenedor */
+    width: 0;
+    height: 0;
+    border-right: 30px solid white; /* Color del triángulo blanco */
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.menu h1 {
+    font-size: 24px;
+    color: black;
+    margin: 10px 0 20px 0;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button {
+    background-color: #E8EDE8;
+    border: none;
+    padding: 10px 5px;
+    margin: 10px 0;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.menu-button i {
+    margin-right: 10px;
+}
+
+.menu-button:hover {
+    background-color: #e0e0e0;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 25px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.content h1 {
+    font-size: 36px;
+    color: black;
+}
+
+.report-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.report-button {
+    background-color: #E8EDE8;
+    border: 2px solid #d1d2d3;
+    padding: 20px 20px;
+    margin: 12px 0;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.report-button:hover {
+    background-color: #81A4B1;
+    font-weight: bold;
+    border-color: #21576dfd;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.search-bar button i {
+    color: #333;
+}
+
+

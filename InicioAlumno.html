@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUP - Inicio</title>
+    <link rel="stylesheet" href="InicioAlumno.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h1>Menú</h1>
+            <div class="menu-buttons">
+                <button class="menu-button" id="home-button"><i class="fas fa-home"></i> Inicio</button>
+                <button class="menu-button" id="messages-button"><i class="fas fa-envelope"></i> Mensajes</button>
+                <button class="menu-button" id="settings-button"><i class="fas fa-file"></i> Trámites</button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Bienvenido</h1>
+            <h2 class="subtitle">Estado de cuenta al: 18/06/2024</h2>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Buscar...">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="stats">
+                <div class="stat"> 
+                    <p>$24.008</p>
+                    <span>Saldo Vencido</span>
+                </div>
+                <div class="stat">
+                    <p>15/07/2024</p>
+                    <span>Próximo vencimiento</span>
+                </div>
+                <div class="stat">
+                    <p>Estado: Habilitado</p>
+                </div>
+            </div>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Cuota</th>
+                        <th>Vto.</th>
+                        <th>Monto</th>
+                        <th>Mora</th>
+                        <th>Total</th>
+                        <th>Pagado</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7/24</td>
+                        <td>15/07</td>
+                        <td>$20.550,0</td>
+                        <td>$0,0</td>
+                        <td>$20.550,0</td>
+                        <td>$0,0</td>
+                        <td>Pendiente</td>
+                    </tr>
+                    <tr>
+                        <td>6/24</td>
+                        <td>15/06</td>
+                        <td>$20.550,0</td>
+                        <td>$0,0</td>
+                        <td>$20.550,0</td>
+                        <td>$0,0</td>
+                        <td>Pendiente</td>
+                    </tr>
+                    <tr>
+                        <td>5/24</td>
+                        <td>15/05</td>
+                        <td>$20.550,0</td>
+                        <td>$3.458,0</td>
+                        <td>$24.008,0</td>
+                        <td>$0,0</td>
+                        <td>Pendiente</td>
+                    </tr>
+                    <tr>
+                        <td>4/24</td>
+                        <td>15/04</td>
+                        <td>$20.550,0</td>
+                        <td>$1.762,1</td>
+                        <td>$22.312,1</td>
+                        <td>$22.312,1</td>
+                        <td>Pagado</td>
+                    </tr>
+                    <tr>
+                        <td>3/24</td>
+                        <td>15/03</td>
+                        <td>$20.550,0</td>
+                        <td>$0,0</td>
+                        <td>$20.550,0</td>
+                        <td>$20.550,0</td>
+                        <td>Pagado</td>
+                    </tr>
+                    <tr>
+                        <td>0/24</td>
+                        <td>15/03</td>
+                        <td>$22.500,0</td>
+                        <td>$3.500,0</td>
+                        <td>$26.000,0</td>
+                        <td>$26.000,0</td>
+                        <td>Pagado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="searchInicio.js"></script>
+</body>
+</html>
