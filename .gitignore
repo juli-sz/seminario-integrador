@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 # Ignora archivos del entorno de desarrollo
 entorno/*
 !entorno/entorno.md
 **/__pycache__/
-__pycache__/
-*.py[cod]
-*$py.class
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -169,4 +164,3 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
->>>>>>> 4db2b567a685b03bf68b1e0ddf1fc41ddc1bb473
